@@ -1,0 +1,436 @@
+
+body {
+    width: 1050px ;
+    margin: auto;
+    color: #555555;   
+    letter-spacing: normal;
+    background-color: #f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+h3,h4,p{
+    margin: 0;
+    font-weight: normal;
+}
+#main { 
+    background-image: url('../images/chris-lee-70l1tDAI6rM-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
+    padding-top:3.5% ;
+    padding-left:40px;
+    padding-bottom:60px;
+}
+
+#logo {
+   line-height: 1em;
+   
+}
+#black {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#white {
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#metamorph {
+    font-size: 18px ;
+    word-spacing: 0.1em    ;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #555555;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+
+
+#menu {
+    width: auto ;
+    margin: 0px 0px 0px 0px  ; 
+    padding:5px 0px 5px 0px ;
+    text-align: center;
+    font-size:1.1em;
+    background-color: #555555;
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block ;
+    margin: 0px 70px 0px 0px  ;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: #bdbdbd;
+}
+
+#CustomerLogin {
+    margin: 20px 0px 0px 0px  ; 
+    float: left;
+    width: 33.3%;
+    
+}
+
+#LoginButtom {
+    font-size: 0.5em;
+    text-align:center;
+    width: 80%;
+    border-radius:8px ; /* 圓角 */
+    margin: auto;
+    padding: 1% 0px 1% 0px;
+    background-color: #3a3a3a;
+    color: #f4f4f4;
+}
+
+#LoginBox { 
+    margin: 10px 0px 0px 0px;
+    font-size: 0.5em;
+}
+
+input[type="text"]{
+    margin: 5px auto; 
+    width:100%;
+    padding:8px;
+    font-weight: bold;
+    background:#ccc;
+    border:0 none;   /* 邊框效果 */
+    -webkit-border-radius: 5px; /* 針對Google Safari 瀏覽器的圓角效果 */
+    cursor:pointer;  /* 滑鼠移到上面的游標效果 */
+    border-radius:5px;   /* 圓角 */
+    -moz-box-sizing:border-box; /* 針對瀏覽器顯示大小不一修正 */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+input[type="password"]{
+    margin: 5px auto; 
+    width: 100%;
+    padding:8px;
+    font-weight: bold;
+    background:#ccc;
+    border:0 none;   /* 邊框效果 */
+    -webkit-border-radius: 5px; /* 針對Google Safari 瀏覽器的圓角效果 */
+    cursor:pointer;  /* 滑鼠移到上面的游標效果 */
+    border-radius:5px;   /* 圓角 */
+    -moz-box-sizing:border-box;/* 針對瀏覽器顯示大小不一修正 */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+input[type="submit"]{
+    margin:  5px auto; 
+    width:100%;
+    padding:8px; 
+    font-weight: bold;
+    background:#ccc;
+    border:0 none;   /* 邊框的效果 */
+    -webkit-border-radius: 5px; /* 針對Google Safari 瀏覽器的圓角效果 */
+    cursor:pointer;  /* 滑鼠移到上面的游標效果 */
+    border-radius:5px;   /* 圓角 */
+    -moz-box-sizing:border-box;/* 針對瀏覽器顯示大小不一修正 */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+input:hover[type="submit"]  {
+    background: #7a7a7a; /* 滑鼠移到上面的效果 */
+}
+
+#Forgot a {
+    font-size: 12pt;
+    color: #555555;
+    margin: 0px 0px 10px 0px;
+}
+
+#Forgot:hover a {
+    color: #c03d3d;
+}
+
+#CompanyNews {
+    margin: 25px 0px 0px 0px ; 
+    
+}
+
+#ComButtom {
+    font-size: 0.5em;
+    text-align:center;
+    width: 80%;
+    border-radius:8px ; /* 圓角 */
+    margin: 20px auto;
+    padding: 1% 0px 1% 0px;
+    background-color: #3a3a3a;
+    color: #f4f4f4;
+}
+
+.News1{
+    width: 100%;
+    margin: 30px auto;
+    color: #555555;
+}
+.News1 h3,.News1 h4 {
+    margin: 0px 0 5px 0 ;
+}
+.News1 a{
+    color: #555555;
+    margin: 0 0 10px 0;
+    text-decoration: underline; /* 超連結底線效果 */
+}
+.N1ellipsis { /* 文字超過隱藏 */
+    overflow:hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: ;/* 文字超過行數設定 */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    }
+.N1ellipsis :hover{
+    color: #c03d3d;
+}
+
+    .News2{
+        width: 100%;
+        margin: 30px auto;
+        color: #555555;
+    }
+    .News2 h3,.News1 h4 {
+        margin: 0px 0 5px 0 ;
+    }
+    .News2 a{
+        color: #555555;
+        margin: 0 0 10px 0;
+        text-decoration: underline; /* 超連結底線效果 */
+    }
+    .N2ellipsis { /* 文字超過隱藏 */
+        overflow:hidden; 
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;/* 文字超過行數設定 */
+        -webkit-box-orient: vertical;
+        white-space: normal;
+        }
+        .N2ellipsis :hover{
+            color: #c03d3d;
+        }
+        .News3{
+            width: 100%;
+            margin: 30px auto;
+            color: #555555;
+        }
+        .News3 h3,.News1 h4 {
+            margin: 0px 0 5px 0 ;
+        }
+        .News3 a{
+            color: #555555;
+            margin: 0 0 10px 0;
+            text-decoration: underline; /* 超連結底線效果 */
+        }
+        .N3ellipsis { /* 文字超過隱藏 */
+            overflow:hidden; 
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;/* 文字超過行數設定 */
+            -webkit-box-orient: vertical;
+            white-space: normal;
+        }
+        .N3ellipsis :hover{
+                color: #c03d3d;
+            }
+            .News4{
+                width: 100%;
+                margin: 30px auto;
+                color: #555555;
+            }
+            .News4 h3,.News1 h4 {
+                margin: 0px 0 5px 0 ;
+            }
+            .News4 a{
+                color: #555555;
+                margin: 0 0 10px 0;
+                text-decoration: underline; /* 超連結底線效果 */
+            }
+            .N4ellipsis { /* 文字超過隱藏 */
+                overflow:hidden; 
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;/* 文字超過行數設定 */
+                -webkit-box-orient: vertical;
+                white-space: normal;
+                }
+            .N4ellipsis :hover{
+                    color: #c03d3d;
+            }
+             .News5{
+                 width: 100%;
+                 margin: 30px auto;
+                 color: #555555;
+             }
+             .News5 h3,.News1 h4 {
+                    margin: 0px 0 5px 0 ;
+                }
+                .News5 a{
+                 color: #555555;
+                 margin: 0 0 10px 0;
+                 text-decoration: underline; /* 超連結底線效果 */
+             }
+                .N5ellipsis { /* 文字超過隱藏 */
+                    overflow:hidden; 
+                 white-space: nowrap;
+                 text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;/* 文字超過行數設定 */
+                    -webkit-box-orient: vertical;
+                    white-space: normal;
+                    }
+                .N5ellipsis :hover{
+                        color: #c03d3d;
+                    }               
+
+/* 左邊區域結束 *//* 左邊區域結束 *//* 左邊區域結束 */
+
+#RightZone{
+    margin: 20px 0px 0px 0px  ; 
+    float: right;
+    width: 63%;
+}
+
+#RightZone h1 ,#RightZone h2, #RightZone h3, #RightZone p { 
+    margin: 0 ;
+}
+
+#HelloWorld {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    margin: 0px 0px 20px 0px  ; 
+}
+
+    #Article01{
+     width: 100%;
+     margin: 30px auto;
+     color: #555555;
+    }
+    #Article01 h2 {
+        color: #3f3f3f;
+        margin: 0 0 10px 0;
+    }
+    .A1ellipsis {
+        overflow:hidden; 
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;/* 文字超過行數設定 */
+        -webkit-box-orient: vertical;
+        white-space: normal;
+        color: #868686;
+        margin: 0 0 10px 0;
+    }
+    
+    #Menu02 {
+        
+        float: right;
+        width: auto ;
+        margin: 0px 0px 0px 0px ; 
+        font-size:1em;
+    }
+    #Menu02 li:before{
+        content:"• ";
+    }
+    #Menu02 a{
+        color:  #536bb8;
+    }
+    #Article01 li{
+        display: inline-block;
+        margin: 0px 10px 0px 0px  ;
+    }
+
+    #Article02{
+        width: 100%;
+        margin: 30px auto;
+        color: #555555;
+       }
+       #Article02 h2 {
+           color: #3f3f3f;
+           margin: 0 0 10px 0;
+       }
+       .A2ellipsis {
+           overflow:hidden; 
+           white-space: nowrap;
+           text-overflow: ellipsis;
+           display: -webkit-box;
+           -webkit-line-clamp: 6;/* 文字超過行數設定 */
+           -webkit-box-orient: vertical;
+           white-space: normal;
+           color: #868686;
+           margin: 0 0 10px 0;
+       }
+       
+       #Article02 li{
+           display: inline-block;
+           margin: 0px 10px 0px 0px  ;
+       }
+    
+       #Article03{
+        width: 100%;
+        margin: 30px auto;
+        color: #555555;
+       }
+       #Article03 h2 {
+           color: #3f3f3f;
+           margin: 0 0 10px 0;
+       }
+       .A3ellipsis {
+           overflow:hidden; 
+           white-space: nowrap;
+           text-overflow: ellipsis;
+           display: -webkit-box;
+           -webkit-line-clamp: 6;/* 文字超過行數設定 */
+           -webkit-box-orient: vertical;
+           white-space: normal;
+           color: #868686;
+           margin: 0 0 10px 0;
+       }
+       
+       #Article03 li{
+           display: inline-block;
+           margin: 0px 10px 0px 0px  ;
+       }
+
+
+footer{
+    float:right;
+    background-color: #3a3a3a;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+   
+    
+}
+
+footer p {
+    font-size:12px;
+    margin: 2px 0 0 0 ;
+    padding:5px 0 ;
+    color: #f4f4f4
+    }
